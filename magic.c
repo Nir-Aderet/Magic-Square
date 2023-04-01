@@ -19,7 +19,10 @@ int main()
 }
 
 
-void printMatrix(int arr[N][N])		/* prints the matrix */
+void printMatrix(int arr[N][N])		
+	/* This method prints the matrix.
+            Input arr - list of lists in the size of N*N.
+            Output None. */
 {				
 	int i,j;
 	for(i=0;i<N;i++)
@@ -36,7 +39,10 @@ void printMatrix(int arr[N][N])		/* prints the matrix */
 }
 
 
-int takeInput(int matrix[N][N])	/* takes input for the matrix*/
+int takeInput(int matrix[N][N])	
+	/* This method takes input for the matrix.
+            Input arr - list of lists in the size of N*N.
+            Output 1 if succseed or 0 if failed including an error message*/
 {
 	int i, j, c,val;
 	printf("Please enter %d numbers between the values 1 to %d:\n", N*N, N*N);
@@ -66,7 +72,10 @@ int takeInput(int matrix[N][N])	/* takes input for the matrix*/
 }
 
 
-void checkMagic(int arr[N][N])		/* check if the matrix ia a magic square */
+void checkMagic(int arr[N][N])		
+	/* This method checks if the matrix ia a magic square.
+            Input arr - list of lists in the size of N*N.
+            Output None. */
 {
 	int check[N*N] = {0};	/* array that check if there is a repution of values */
 	int r, l, k, i;
