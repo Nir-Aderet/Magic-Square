@@ -10,7 +10,7 @@ https://www.dcode.fr/magic-square
 
 Main methods:
 
-● printMatrix: his method prints the matrix.
+● printMatrix: This method prints the matrix.
 
 ● takeInput: This method takes input for the matrix.
 
